@@ -7,35 +7,33 @@ The chatbot supports user messages, bot responses, auto-scrolling, and message a
 
 ## 📂 Project Structure
 
+```
 chatbot-project/
 │
 ├── public/
 ├── src/
-│ ├── assets/
-│ │ ├── react.svg
-│ │ ├── robot.png
-│ │ └── user.png
-│ │
-│ ├── components/
-│ │ ├── ChatInput.jsx
-│ │ ├── ChatInput.css
-│ │ ├── ChatMessage.jsx
-│ │ ├── ChatMessage.css
-│ │ ├── ChatMessages.jsx
-│ │ ├── ChatMessages.css
-│ │
-│ ├── App.jsx
-│ ├── App.css
-│ ├── main.jsx
-│ ├── index.css
+│   ├── assets/
+│   │   ├── react.svg
+│   │   ├── robot.png
+│   │   └── user.png
+│   │
+│   ├── components/
+│   │   ├── ChatInput.jsx
+│   │   ├── ChatInput.css
+│   │   ├── ChatMessage.jsx
+│   │   ├── ChatMessage.css
+│   │   ├── ChatMessages.jsx
+│   │   ├── ChatMessages.css
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   ├── index.css
 │
 ├── index.html
 ├── package.json
 ├── vite.config.js
 └── README.md
-
-markdown
-Copy code
 
 ---
 
@@ -76,27 +74,20 @@ Copy code
 
 ### 1️⃣ Clone the repository
 
-```sh
 git clone https://github.com/your-username/chatbot-project.git
 cd chatbot-project
 2️⃣ Install dependencies
-sh
-Copy code
+
+
 npm install
 3️⃣ Run the development server
-sh
-Copy code
+
 npm run dev
 4️⃣ Open in browser
 Visit:
-
-arduino
-Copy code
 http://localhost:5173
 🖼️ Screenshots
-Add your screenshots here — example:
 
-css
 Copy code
 ![Chat UI Screenshot](./src/assets/screenshot.png)
 🛠️ Technologies Used
@@ -111,7 +102,7 @@ CSS
 supersimpledev Chatbot API
 
 📦 Build for Production
-sh
+
 Copy code
 npm run build
 🤝 Contributing
